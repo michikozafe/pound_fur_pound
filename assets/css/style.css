@@ -1,0 +1,537 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*landing page*/
+
+.jumbotron {
+	margin-bottom: 0px;
+	background-image: url(../images/landing.jpeg);
+	background-position: 0% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2;
+	text-shadow: black 0.3em 0.3em 0.3em;
+	height: 100vh;
+	padding-top: 5%;
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;
+}
+
+.jumbotron a {
+	text-decoration: none;
+	color: #fff;
+	/*white*/
+	display: block;
+}
+
+.jumbotron p {
+	font-size: 2rem;
+}
+
+.btn-landing {
+	width: 40%;
+	line-height: 2rem;
+}
+
+.landing-logo {
+	width: 40%;
+	opacity: 0.4;
+}
+
+/*end landing page*/
+
+/*home*/
+
+.company-logo {
+	height: 35px;
+	margin-right: 5px;
+}
+
+.navbar .active {
+	border-left: 3px solid green;
+	transform: scale(1.1);
+	margin-left: 10px;
+}
+
+.carousel-item {
+	height: 575px;
+}
+
+.carousel1 {
+	background-image: url("https://images.pexels.com/photos/160740/dogs-yellow-labrador-retriever-animal-golden-160740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel2 {
+	background-image: url("https://images.pexels.com/photos/1904105/pexels-photo-1904105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel3 {
+	background-image: url("https://images.pexels.com/photos/1249208/pexels-photo-1249208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel-item h1 {
+	text-shadow: black 0.1em 0.1em 0.1em;
+	letter-spacing: 0.5rem;
+	margin-bottom: 20px;
+}
+
+.carousel-item a {
+	text-decoration: none;
+	color: #fff;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+#home-icons {
+	color: black;
+}
+
+#why-choose-us {
+	height: 200px;
+	background: url('https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+}
+
+#why-choose-us h3 {
+	text-shadow: black 0.1em 0.1em 0.1em;
+	margin-bottom: 15px;
+}
+
+#why-choose-us p {
+	margin-bottom: 0;
+	font-size: 1.2rem;
+}
+
+#award p {
+ font-size: 1.5rem;
+}
+
+.gallery-text {
+	color: black;
+}
+
+.gallery-box img {
+	height: 200px;
+	width: 100%;
+}
+
+#video {
+	height: 200px;
+	background: url("https://images.unsplash.com/photo-1512546148165-e50d714a565a?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+
+.modal-home{
+	max-width: 900px;
+}
+
+#video h1,
+#video i {
+	text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+
+#video .container,
+#video .row,
+#video .col {
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/*end home*/
+
+/* Page Header */
+
+#page-header {
+	background-image: url("https://images.pexels.com/photos/1938123/pexels-photo-1938123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-position: center;
+	background-size: cover;
+	height: 200px;
+	text-align: center;
+	position: relative;
+}
+
+#page-header h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+
+#page-header .row {
+	margin: 0;
+}
+
+.dark-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/*end page header*/
+
+/*about*/
+
+#jumbotron-about {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+}
+
+#landing-about {
+	font-size: 5rem;
+	padding-top: 15%
+}
+
+.img-box-about {
+	margin-top: -20%;
+}
+
+.img-box-about img {
+	border: 10px solid white;
+	height: 420px;
+	width: 100%;
+}
+
+.name-about {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: green;
+}
+
+/*end about*/
+
+/*services*/
+
+.faq {
+	background-color: lightgrey;
+	padding-bottom: 30px;
+}
+
+.faq hr {
+	border: none;
+	height: 5px;
+	background-color: #ccc;
+}
+
+.faq .card:hover {
+	background-color: darkgrey;
+}
+
+.img-box-services-1 {
+	background-image: url("https://images.pexels.com/photos/1766478/pexels-photo-1766478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.img-box-services-2 {
+	background-image: url("https://images.pexels.com/photos/271721/pexels-photo-271721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+#services h2 {
+	letter-spacing: 0.3rem;
+	font-weight: 600;
+	border-bottom: 2px solid darkgrey;
+}
+
+#services h2:hover {
+	transform: scale(1.1);
+}
+
+#services a, #services button {
+	text-decoration: none;
+}
+
+#services a {
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+}
+
+#services a:hover {
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 8px;
+}
+/*end services*/
+
+/* rates */
+
+#rates .card:hover {
+	transform: scale(1.1);
+}
+
+#one-time-services {
+	background-color: rgb(224, 221, 221, 0.8);
+	margin: 0;
+	padding: 0;
+}
+
+#one-time-services .card:hover {
+	transform: scale(1.1);
+}
+
+.price {
+	float: right;
+	color: #28a745;
+}
+
+/* end rates */
+
+/* contact */
+
+.contact-header,
+.staff-bg h1 {
+	font-weight: 700;
+	letter-spacing: 0.3rem;
+}
+
+.contact-header:hover,
+.staff-bg h1:hover {
+	transform: scale(1.3);
+}
+
+.contact-title {
+	font-weight: 700;
+	font-size: 1.3rem;
+}
+
+.staff-bg {
+	background-color: rgb(224, 221, 221, 0.8);
+	margin: 0;
+	padding: 0;
+}
+
+.contact-bg {
+	background-color: rgb(224, 221, 221, 0.8);
+}
+
+#contact .form-control:focus {
+	background-color: rgb(224, 221, 221, 0.3);
+}
+
+.message-form {
+	resize: none;
+}
+
+.follow-us a {
+	margin-top: 20%;
+}
+
+/* end contact */
+
+/* signup */
+
+.fb {
+	background-color: #415dae;
+	border-radius: 5px;
+}
+
+.google {
+	background-color: #c73413;
+	border-radius: 5px;
+}
+
+#signup .bg {
+	background-color: rgb(224, 221, 221, 0.3);
+}
+#signup a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#signup h1:hover {
+	transform: scale(1.5);
+}
+
+.divider {
+	border: none;
+	height: 5px;
+}
+
+#signup .form-control:focus {
+	background-color: rgb(224, 221, 221, 0.3);
+}
+
+.back-to-home:hover {
+	border: 1px solid rgb(48, 156, 15);
+	border-radius: 5px;
+	padding: 8px;
+}
+
+/* end signup */
+
+/*mobile*/
+
+@media only screen and (max-width: 400px) {
+	#jumbotron-section h1 {
+		font-size: 2.9rem;
+		margin-top: 5%;
+	}
+
+	#jumbo-land {
+		text-align: center;
+	}
+
+	.landing-logo {
+		width: 98%;
+		justify-content: center;
+		margin-top: 30%;
+	}
+
+	#jumbotron-section p {
+		font-size: 1.25rem;
+	}
+
+	#jumbotron-section .btn {
+		width: 100%
+	}
+
+	#home-icons h4 {
+		margin-bottom: 30px;
+	}
+	.carousel-item h1 {
+		letter-spacing: 0.1rem;
+		margin-bottom: 10px;
+		font-size: 3rem;
+	}
+	.carousel-item a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#why-choose-us h3 {
+		font-size: 2.5rem;
+	}
+	#why-choose-us p {
+		font-size: 1rem;
+	}
+	.services-header {
+		font-size: 4rem;
+	}
+
+	#signup .google {
+		margin-bottom: 20px;
+		margin-left: 20px
+	}
+	#signup .fb {
+		margin-left: 20px
+	}
+
+	#or p {
+		margin-bottom: 0;
+	}
+
+	.contact-us-header {
+		font-size: 3.3rem;
+	}
+
+	.get-in-touch {
+		margin-top: 10px;
+	}
+
+	#award p {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.gallery-box a {
+		margin-bottom: 10px;
+	}
+
+	#video iframe {
+		height: 250px;
+	}
+}
+
+/*tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.img-box-about {
+		margin-top: 10%;
+	}
+	.grooming-package {
+		padding-right: 40px;
+	}
+	.daycare-package {
+		padding-left: 40px;
+	}
+
+	.form-container {
+		padding-left: 40px;
+	}
+
+	.contact-us-header {
+		font-size: 3.7rem;
+	}
+
+	.follow-us a {
+		margin-top: 30%;
+	}
+
+	.gallery-box .row {
+		margin-bottom: 20px;
+	}
+
+	.gallery-box .cont{
+		flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+	}
+
+	.landing-logo {
+		width: 67%;
+		margin-top: 20%;
+	}
+}
+
+/*desktop*/
+
+@media only screen and (min-width: 961px) {
+	.grooming-package {
+		padding-right: 35px;
+	}
+	.daycare-package {
+		padding-left: 35px;
+	}
+
+	#signup .text-social-media {
+		padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+		border-radius: .3rem;
+	}
+
+	.form-container {
+		padding-left: 40px;
+	}
+
+	.gallery-box .row {
+		margin-bottom: 20px;
+	}
+}
